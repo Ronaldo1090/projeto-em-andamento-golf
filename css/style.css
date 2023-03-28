@@ -1,0 +1,124 @@
+*{  padding: 0;
+    margin: 0;
+    border: 0;    
+}
+
+body{
+    background-color: rgb(250, 245, 169);
+}
+
+.menu{
+    display: flex;
+    background-color: rgb(217, 248, 105);
+    width: 100%;
+    justify-content: space-around;
+    color: rgb(199, 138, 24);
+    padding: 15px 0px 5px ;
+}
+
+.menuinterno{
+    display: flex;
+    background-color: rgb(217, 248, 105);
+    border-radius: 10px;
+}
+
+.menuhorario{
+    font-size: 20px;
+    color: black;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+#slider{
+    width: 100%;
+    max-height: 150px;
+    position: relative;
+}
+
+#slider img{
+
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: opacity 4000ms;
+}
+
+#slider   img.selected{
+    opacity: 1;
+    
+}
+
+h2{
+    font-size: 50px;
+}
+
+h1{
+    margin: 0px 20px;
+}
+
+.galeria{ 
+    font-family: sans-serif;
+    text-align: center;
+    padding: 550px 0px;
+    width: 100%px;
+    min-height: 60vh;
+    max-width: 100%;
+    text-decoration: none;   
+    
+}
+
+img{ 
+    display: inline-block;
+    padding: 5px;
+    width: 175px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+
+.menuhorizontal{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 30px;
+}
+
+.menuhorizontal ul{
+    list-style: none;
+}
+
+.menuhorizontal li{
+    display: inline;
+    float: left;
+    padding:2px;
+    margin: 2px;
+    width: 80px;
+}
+
+.menuhorizontal a{
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    background-color: rgb(255, 145, 0);
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+
+.menuhorizontal :hover{
+    background-color:gold;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menuhorizontal li.btnesquerdo{
+    border: none;
+    
+}
